@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Navbar } from '../../reuseable/navbar/navbar';
 import { Footer } from '../../footer/footer/footer';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute, RouterLink } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-event-details',
@@ -36,10 +36,17 @@ export class EventDetails {
         'Prasadam Distribution',
       ],
       schedule: [
-        { day: 'Saturday 30th May 2026', timing: '04:30 PM - 06:30 PM' },
-        { day: 'Sunday 31st May 2026', timing: '04:30 PM - 06:30 PM' },
+        {
+          day: 'Saturday 30th May 2026',
+          timing: '04:30 PM - 06:30 PM',
+        },
+        {
+          day: 'Sunday 31st May 2026',
+          timing: '04:30 PM - 06:30 PM',
+        },
       ],
     },
+
     {
       id: 2,
       slug: 'shree-hanuman-charitra-katha',
@@ -60,33 +67,33 @@ export class EventDetails {
         'Prasadam Distribution',
       ],
       schedule: [
-        { activity: 'Hanuman Charitra Katha', timing: '04:00 PM' },
-        { activity: 'Bhajan & Kirtan', timing: '06:00 PM' },
-        { activity: 'Maha Aarti & Prasadam', timing: '07:30 PM' },
+        {
+          activity: 'Hanuman Charitra Katha',
+          timing: '04:00 PM',
+        },
+        {
+          activity: 'Bhajan & Kirtan',
+          timing: '06:00 PM',
+        },
+        {
+          activity: 'Maha Aarti & Prasadam',
+          timing: '07:30 PM',
+        },
       ],
     },
+
     {
       id: 3,
-
       slug: 'hari-naam-sankirtan',
-
       title: 'Hari Naam Sankirtan by ISKCON Leicester',
-
       banner: 'assets/event/event-3.jpeg',
-
       category: 'Spiritual Kirtan & Bhajan',
-
       speaker: 'ISKCON Leicester',
-
       date: 'Sunday, 7th June 2026',
-
       time: '04:30 PM to 06:30 PM',
-
       location: '70 Moira Street Leicester, UK LE4 6LA',
-
       description:
         'Shree Shakti Mandir warmly invites all devotees and families to participate in the divine Hari Naam Sankirtan led by ISKCON Leicester. Experience the joy of devotional chanting, bhajans, spiritual unity, and the blessings of Lord Krishna in a peaceful and uplifting atmosphere.',
-
       highlights: [
         'Hari Naam Sankirtan',
         'Krishna Bhajans & Kirtans',
@@ -95,7 +102,6 @@ export class EventDetails {
         'Prasadam Distribution',
         'Family Spiritual Event',
       ],
-
       schedule: [
         {
           activity: 'Hari Naam Sankirtan',
@@ -111,28 +117,19 @@ export class EventDetails {
         },
       ],
     },
+
     {
       id: 4,
-
       slug: 'sidh-shree-baba-balak-nath-ji-ki-chownki',
-
       title: 'Sidh Shree Baba Balak Nath Ji Ki Chownki',
-
       banner: 'assets/event/baba-balak-nath.jpeg',
-
       category: 'Spiritual Chownki',
-
       speaker: 'Shree Shakti Mandir',
-
       date: 'Sunday, 14th June 2026',
-
       time: '04:30 PM to 06:30 PM',
-
       location: '70 Moira Street, Leicester LE4 6LA',
-
       description:
         'Shree Shakti Mandir warmly invites all devotees and their families to seek the divine blessings of Sidh Shree Baba Balak Nath Ji on the auspicious occasion of the last Sunday of Adhik Mas. Join us for a spiritually uplifting evening filled with devotion, Baba Ji Ki Chownki, Aarti, Chalisa, and Prasadam.',
-
       highlights: [
         'Sidh Shree Baba Balak Nath Ji Ki Chownki',
         'Baba Ji Ki Aarti',
@@ -141,7 +138,6 @@ export class EventDetails {
         'Blessings of Baba Balak Nath Ji',
         'Prasadam Distribution',
       ],
-
       schedule: [
         {
           activity: 'Sidh Shree Baba Balak Nath Ji Ki Chownki',
@@ -161,28 +157,19 @@ export class EventDetails {
         },
       ],
     },
+
     {
-      id: 4,
-
+      id: 5,
       slug: 'mata-ji-ki-chowki',
-
       title: 'Mata Ji Ki Chowki',
-
       banner: 'assets/event/mata-ji-ki-chowki.jpeg',
-
       category: 'Spiritual Chownki',
-
       speaker: 'Shree Shakti Mandir',
-
       date: 'Saturday, 20th June 2026',
-
       time: '04:00 PM to 06:30 PM',
-
       location: '70 Moira Street, Leicester LE4 6LA',
-
       description:
         'Shree Shakti Mandir warmly invites all devotees and their families to join Mata Ji Ki Chowki and seek the divine blessings of Mata Rani. Join us for a spiritually uplifting evening filled with devotion, bhajans, prayers, and Mata Ji Ki Chowki. Daily Aarti will be held at 6:30 PM, followed by prasadam for all devotees.',
-
       highlights: [
         'Mata Ji Ki Chowki',
         'Devotional Bhajans',
@@ -191,7 +178,6 @@ export class EventDetails {
         'Daily Aarti',
         'Prasadam Distribution',
       ],
-
       schedule: [
         {
           activity: 'Mata Ji Ki Chowki',
@@ -208,7 +194,6 @@ export class EventDetails {
       ],
     },
   ];
-
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
