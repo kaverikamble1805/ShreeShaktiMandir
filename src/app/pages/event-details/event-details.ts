@@ -161,6 +161,52 @@ export class EventDetails {
         },
       ],
     },
+    {
+      id: 4,
+
+      slug: 'mata-ji-ki-chowki',
+
+      title: 'Mata Ji Ki Chowki',
+
+      banner: 'assets/event/mata-ji-ki-chowki.jpeg',
+
+      category: 'Spiritual Chownki',
+
+      speaker: 'Shree Shakti Mandir',
+
+      date: 'Saturday, 20th June 2026',
+
+      time: '04:00 PM to 06:30 PM',
+
+      location: '70 Moira Street, Leicester LE4 6LA',
+
+      description:
+        'Shree Shakti Mandir warmly invites all devotees and their families to join Mata Ji Ki Chowki and seek the divine blessings of Mata Rani. Join us for a spiritually uplifting evening filled with devotion, bhajans, prayers, and Mata Ji Ki Chowki. Daily Aarti will be held at 6:30 PM, followed by prasadam for all devotees.',
+
+      highlights: [
+        'Mata Ji Ki Chowki',
+        'Devotional Bhajans',
+        'Mata Rani Blessings',
+        'Family Spiritual Gathering',
+        'Daily Aarti',
+        'Prasadam Distribution',
+      ],
+
+      schedule: [
+        {
+          activity: 'Mata Ji Ki Chowki',
+          timing: '04:00 PM - 06:30 PM',
+        },
+        {
+          activity: 'Daily Aarti',
+          timing: '06:30 PM',
+        },
+        {
+          activity: 'Prasadam Distribution',
+          timing: 'After Daily Aarti',
+        },
+      ],
+    },
   ];
 
   constructor(private route: ActivatedRoute) {}

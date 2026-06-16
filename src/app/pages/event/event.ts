@@ -40,22 +40,22 @@ export class Event implements AfterViewInit {
     {
       id: 1,
 
-      slug: 'sidh-shree-baba-balak-nath-ji-ki-chownki',
+      slug: 'mata-ji-ki-chowki',
 
-      title: 'Sidh Shree Baba Balak Nath Ji Ki Chownki',
+      title: 'Mata Ji Ki Chowki',
 
-      image: 'assets/event/baba-balak-nath.jpeg',
+      image: 'assets/event/mata-ji-ki-chowki.jpeg',
 
-      date: '14 June 2026',
+      date: '20 June 2026',
 
-      time: '04:30 PM to 06:30 PM',
+      time: '04:00 PM to 06:30 PM',
 
-      location: '70 Moira Street Leicester, UK LE4 6LA',
+      location: '70 Moira Street, Leicester, UK LE4 6LA',
 
       category: 'Spiritual Chownki',
 
       description:
-        'Shree Shakti Mandir invites all devotees to seek the blessings of Sidh Shree Baba Balak Nath Ji on the auspicious occasion of the last Sunday of Adhik Mas. Join with family and friends for bhajans, aarti, chalisa, and prasadam.',
+        'Shree Shakti Mandir warmly invites all devotees to join us for Mata Ji Ki Chowki. Come with family and friends to participate in devotional bhajans and seek the blessings of Mata Rani. Daily Aarti will be held at 6:30 PM, followed by prasadam for all devotees.',
 
       button: 'View Details',
     },
@@ -207,6 +207,28 @@ export class Event implements AfterViewInit {
 
       description:
         'Join the divine Hari Naam Sankirtan by ISKCON Leicester and immerse yourself in devotional chanting, bhajans, and spiritual bliss.',
+
+      button: 'View Details',
+    },
+    {
+      // id: 1,
+
+      slug: 'sidh-shree-baba-balak-nath-ji-ki-chownki',
+
+      title: 'Sidh Shree Baba Balak Nath Ji Ki Chownki',
+
+      image: 'assets/event/baba-balak-nath.jpeg',
+
+      date: '14 June 2026',
+
+      time: '04:30 PM to 06:30 PM',
+
+      location: '70 Moira Street Leicester, UK LE4 6LA',
+
+      category: 'Spiritual Chownki',
+
+      description:
+        'Shree Shakti Mandir invites all devotees to seek the blessings of Sidh Shree Baba Balak Nath Ji on the auspicious occasion of the last Sunday of Adhik Mas. Join with family and friends for bhajans, aarti, chalisa, and prasadam.',
 
       button: 'View Details',
     },
