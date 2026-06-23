@@ -36,51 +36,72 @@ export class Event implements AfterViewInit {
 
     //   button: 'View Details',
     // },
-    {
-      id: 1,
+    // {
+    //   id: 1,
 
-      slug: 'mata-ji-ki-chowki',
+    //   slug: 'mata-ji-ki-chowki',
 
-      title: 'Mata Ji Ki Chowki',
+    //   title: 'Mata Ji Ki Chowki',
 
-      image: 'assets/event/mata-ji-ki-chowki.jpeg',
+    //   image: 'assets/event/mata-ji-ki-chowki.jpeg',
 
-      date: '20 June 2026',
+    //   date: '20 June 2026',
 
-      time: '04:00 PM to 06:30 PM',
+    //   time: '04:00 PM to 06:30 PM',
 
-      location: '70 Moira Street, Leicester, UK LE4 6LA',
+    //   location: '70 Moira Street, Leicester, UK LE4 6LA',
 
-      category: 'Spiritual Chownki',
+    //   category: 'Spiritual Chownki',
 
-      description:
-        'Shree Shakti Mandir warmly invites all devotees to join us for Mata Ji Ki Chowki. Come with family and friends to participate in devotional bhajans and seek the blessings of Mata Rani. Daily Aarti will be held at 6:30 PM, followed by prasadam for all devotees.',
-
-      button: 'View Details',
-    },
-
+    //   description:
+    //     'Join us for a devotional Mata Ji Ki Chowki with soulful bhajans, evening aarti, and prasadam. Seek the divine blessings of Mata Rani with your family.',
+    //   button: 'View Details',
+    // },
     {
       id: 2,
 
-    slug: 'sidh-shree-baba-balak-nath-ji-ki-chownki',
+      slug: 'shree-hanuman-charitra-katha',
 
-    title: 'Sidh Shree Baba Balak Nath Ji Ki Chownki',
+      title: 'Shree Hanuman Charitra Katha',
 
-    image: 'assets/event/baba-balak-nath.jpeg',
+      image: 'assets/event/event-2.jpeg',
 
-    date: '14 June 2026',
+      date: '3 to 5 July 2026',
 
-    time: '04:30 PM to 06:30 PM',
+      time: '04:00 PM to 08:00 PM',
 
-    location: '70 Moira Street Leicester, UK LE4 6LA',
+      location: '70 Moira Street Leicester, UK LE4 6LA',
 
-    category: 'Spiritual Chownki',
+      category: 'Hanuman Katha Mahotsav',
 
-    description:
-      'Shree Shakti Mandir invites all devotees to seek the blessings of Sidh Shree Baba Balak Nath Ji on the auspicious occasion of the last Sunday of Adhik Mas. Join with family and friends for bhajans, aarti, chalisa, and prasadam.',
+      description:
+        'Experience the divine life, bhakti, courage, and teachings of Prabhu Hanuman through sacred katha and bhajans.',
 
       button: 'View Details',
     },
+
+    // {
+    //   id: 2,
+
+    // slug: 'sidh-shree-baba-balak-nath-ji-ki-chownki',
+
+    // title: 'Sidh Shree Baba Balak Nath Ji Ki Chownki',
+
+    // image: 'assets/event/baba-balak-nath.jpeg',
+
+    // date: '14 June 2026',
+
+    // time: '04:30 PM to 06:30 PM',
+
+    // location: '70 Moira Street Leicester, UK LE4 6LA',
+
+    // category: 'Spiritual Chownki',
+
+    // description:
+    //   'Shree Shakti Mandir invites all devotees to seek the blessings of Sidh Shree Baba Balak Nath Ji on the auspicious occasion of the last Sunday of Adhik Mas. Join with family and friends for bhajans, aarti, chalisa, and prasadam.',
+
+    //   button: 'View Details',
+    // },
     // {
     //   id: 3,
 
@@ -115,7 +136,7 @@ export class Event implements AfterViewInit {
       time: '04:30 PM to 06:30 PM',
       category: 'Spiritual Satsang',
       description:
-        'Join the divine spiritual satsang and discover peace, happiness, and devotion through chanting God’s holy name.',
+        'Devotees gathered for a spiritual satsang filled with chanting, devotion, and divine blessings.',
     },
     {
       title: 'Shiv Mahapuran Katha',
@@ -163,30 +184,6 @@ export class Event implements AfterViewInit {
     },
 
     {
-      id: 2,
-
-      slug: 'shree-hanuman-charitra-katha',
-
-      title: 'Shree Hanuman Charitra Katha',
-
-      image: 'assets/event/event-2.jpeg',
-
-      date: '3 to 5 July 2026',
-
-      time: '04:00 PM to 08:00 PM',
-
-      location: '70 Moira Street Leicester, UK LE4 6LA',
-
-      category: 'Hanuman Katha Mahotsav',
-
-      description:
-        'Experience the divine life, bhakti, courage, and teachings of Prabhu Hanuman through sacred katha and bhajans.',
-
-      button: 'View Details',
-    },
-    {
-      id: 3,
-
       slug: 'hari-naam-sankirtan',
 
       title: 'Hari Naam Sankirtan',
@@ -202,13 +199,9 @@ export class Event implements AfterViewInit {
       category: 'Spiritual Kirtan',
 
       description:
-        'Join the divine Hari Naam Sankirtan by ISKCON Leicester and immerse yourself in devotional chanting, bhajans, and spiritual bliss.',
-
-      button: 'View Details',
+        'Devotees joined ISKCON Leicester for Hari Naam Sankirtan, bhajans, and spiritual bliss.',
     },
     {
-      // id: 1,
-
       slug: 'sidh-shree-baba-balak-nath-ji-ki-chownki',
 
       title: 'Sidh Shree Baba Balak Nath Ji Ki Chownki',
@@ -224,9 +217,24 @@ export class Event implements AfterViewInit {
       category: 'Spiritual Chownki',
 
       description:
-        'Shree Shakti Mandir invites all devotees to seek the blessings of Sidh Shree Baba Balak Nath Ji on the auspicious occasion of the last Sunday of Adhik Mas. Join with family and friends for bhajans, aarti, chalisa, and prasadam.',
+        'Devotees received the blessings of Baba Balak Nath Ji through bhajans, aarti, and chalisa.',
+    },
+    {
+      slug: 'mata-ji-ki-chowki',
 
-      button: 'View Details',
+      title: 'Mata Ji Ki Chowki',
+
+      image: 'assets/event/mata-ji-ki-chowki.jpeg',
+
+      date: '20 June 2026',
+
+      time: '04:00 PM to 06:30 PM',
+
+      location: '70 Moira Street, Leicester, UK LE4 6LA',
+
+      category: 'Spiritual Chownki',
+
+      description: 'Devotees gathered for Mata Ji Ki Chowki with bhajans, aarti, and prasadam.',
     },
   ];
   ngAfterViewInit(): void {
